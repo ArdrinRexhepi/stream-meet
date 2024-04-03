@@ -5,7 +5,7 @@ import {
   useCall,
 } from "@stream-io/video-react-sdk";
 import { useEffect, useState } from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 const MeetingSetup = ({
   setIsSetupComplete,

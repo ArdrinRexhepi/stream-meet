@@ -18,8 +18,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { LayoutList, Users } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import EndCallButton from "./EndCallButton";
-import Loader from "./Loader";
+import EndCallButton from "../EndCallButton";
+import Loader from "../layout/Loader";
 
 type CallLayoutType = "grid" | "speaker-left" | "speaker-right";
 

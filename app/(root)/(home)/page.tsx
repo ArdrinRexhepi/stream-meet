@@ -1,4 +1,4 @@
-import MeetingTypeList from "@/components/MeetingTypeList";
+import MeetingTypeList from "@/components/meeting/MeetingTypeList";
 const Home = () => {
   const now = new Date();
   const time = now.toLocaleTimeString("en-US", {

@@ -25,7 +25,8 @@ const Sidebar = () => {
                 {
                   "bg-blue-1": isActive,
                 }
-              )}>
+              )}
+            >
               <Image
                 src={link.imgUrl}
                 alt={link.label}
